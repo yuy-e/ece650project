@@ -9,4 +9,5 @@ In Version2, I acquire a lock before and release the lock after calling sbrk imm
 
 Project #3: Developed a pair of game that interact to model a hot-potato game using TCP sockets. The ringmaster creates a "potato" object and send it to randomly selected player, the player who receive the "potato" will decrement the number of hops of the "potato" and transfer it to a randomly selected neighbor player until the number of hops reaches zero. Then the player would send the "potato" back to the ringmaster and also print out the trace of the "potato".
 
-Project #4: Database Programming:
+Project #4: Database Programming
+Built a PostgreSQL database and implements create, insert, query functions through two different ways: SQL sentencess 
